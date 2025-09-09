@@ -3,5 +3,8 @@
   "item.crystallized-mod.raw_crystallized": "Raw Crystallized",
 
   "item.crystallized-mod.crystallized_block": "Crystallized Block",
-  "item.crystallized-mod.crystallized_ore": "Crystallized Ore"
+  "item.crystallized-mod.crystallized_ore": "Crystallized Ore",
+
+  "itemgroup.crystallized-mod.crystallized_items": "Crystallized Items",
+  "itemgroup.crystallized-mod.crystallized_blocks": "Crystallized Blocks"
 }
