@@ -18,9 +18,15 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
     public static final Block CRYSTALLIZED_BLOCK = registerBlock("crystallized_block",
             AbstractBlock.Settings.create()
-                    .strength(6f)
+                    .strength(5f)
                     .requiresTool()
-                    .sounds(BlockSoundGroup.STONE));
+                    .sounds(BlockSoundGroup.NETHERITE));
+
+    public static final Block CRYSTALLIZED_ORE = registerBlock("crystallized_ore",
+            AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.NETHER_ORE));
 
     private static Block registerBlock(String name, AbstractBlock.Settings blockSettings) {
         RegistryKey<Block> key = RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(CrystallizedMod.MOD_ID, name));
@@ -38,6 +44,9 @@ public class ModBlocks {
         CrystallizedMod.LOGGER.info("Registering ModBlocks for " + CrystallizedMod.MOD_ID);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries ->{
             entries.add(ModBlocks.CRYSTALLIZED_BLOCK);
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries ->{
+            entries.add(ModBlocks.CRYSTALLIZED_ORE);
         });
     }
 }
