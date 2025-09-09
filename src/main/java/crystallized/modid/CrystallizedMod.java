@@ -1,5 +1,6 @@
 package crystallized.modid;
 
+import crystallized.modid.block.ModBlocks;
 import crystallized.modid.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,5 +14,6 @@ public class CrystallizedMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
         ModItems.registerModItems();
+        ModBlocks.registerModBlocks();
 	}
 }
