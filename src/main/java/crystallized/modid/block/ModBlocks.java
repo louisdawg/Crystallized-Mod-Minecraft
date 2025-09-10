@@ -28,6 +28,8 @@ public class ModBlocks {
                     .requiresTool()
                     .sounds(BlockSoundGroup.NETHER_ORE));
 
+
+
     private static Block registerBlock(String name, AbstractBlock.Settings blockSettings) {
         RegistryKey<Block> key = RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(CrystallizedMod.MOD_ID, name));
         Block block = new Block(blockSettings.registryKey(key));

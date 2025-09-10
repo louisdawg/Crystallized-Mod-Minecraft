@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "group": "crystallized_ingot",
+  "category": "misc",
+  "ingredient": "crystallized-mod:crystallized_ore",
+  "result": {
+    "id": "crystallized-mod:crystallized_ingot"
+  },
+  "experience": 0.8,
+  "cookingtime": 120
+}
