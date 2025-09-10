@@ -26,8 +26,7 @@ public class ModBlocks {
             AbstractBlock.Settings.create()
                     .strength(4f)
                     .requiresTool()
-                    .sounds(BlockSoundGroup.NETHER_ORE));
-
+                    .sounds(BlockSoundGroup.DEEPSLATE));
 
 
     private static Block registerBlock(String name, AbstractBlock.Settings blockSettings) {
@@ -41,7 +40,6 @@ public class ModBlocks {
         BlockItem item = new BlockItem(block, new Item.Settings().registryKey(key));
         Registry.register(Registries.ITEM, key, item);
     }
-
     public static void registerModBlocks() {
         CrystallizedMod.LOGGER.info("Registering ModBlocks for " + CrystallizedMod.MOD_ID);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries ->{
