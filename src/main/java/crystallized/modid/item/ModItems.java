@@ -1,6 +1,7 @@
 package crystallized.modid.item;
 
 import crystallized.modid.CrystallizedMod;
+import crystallized.modid.item.custom.ExalterItem;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -15,6 +16,9 @@ public class ModItems {
             new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(CrystallizedMod.MOD_ID, "crystallized_ingot")))));
     public static final Item RAW_CRYSTALLIZED = registerItem("raw_crystallized", new Item(
             new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(CrystallizedMod.MOD_ID, "raw_crystallized")))));
+    public static final Item EXALTER = registerItem("exalter", new ExalterItem(
+            new Item.Settings().maxDamage(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(CrystallizedMod.MOD_ID, "exalter")))));
+
 
 
     private static Item registerItem(String name, Item item) {

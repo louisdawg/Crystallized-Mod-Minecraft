@@ -2,6 +2,7 @@ package crystallized.modid.item;
 
 import crystallized.modid.CrystallizedMod;
 import crystallized.modid.block.ModBlocks;
+import crystallized.modid.item.custom.ExalterItem;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -19,6 +20,8 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.CRYSTALLIZED_INGOT);
                         entries.add(ModItems.RAW_CRYSTALLIZED);
+
+                        entries.add(ModItems.EXALTER);
                     })
                     .build());
 
