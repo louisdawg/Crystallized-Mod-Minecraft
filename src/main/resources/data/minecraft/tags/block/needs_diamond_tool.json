@@ -1,6 +1,5 @@
 {
-  "replace": false,
-  "value": [
+  "values": [
     "crystallized-mod:crystallized_block",
     "crystallized-mod:crystallized_ore"
   ]

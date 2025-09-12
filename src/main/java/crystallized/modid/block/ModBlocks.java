@@ -18,13 +18,13 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
     public static final Block CRYSTALLIZED_BLOCK = registerBlock("crystallized_block",
             AbstractBlock.Settings.create()
-                    .strength(3f)
+                    .strength(4f)
                     .requiresTool()
                     .sounds(BlockSoundGroup.NETHERITE));
 
     public static final Block CRYSTALLIZED_ORE = registerBlock("crystallized_ore",
             AbstractBlock.Settings.create()
-                    .strength(3f)
+                    .strength(4f)
                     .requiresTool()
                     .sounds(BlockSoundGroup.DEEPSLATE));
 
