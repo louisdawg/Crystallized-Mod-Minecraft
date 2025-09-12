@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "":  {
+      "model": "crystallized-mod:block/endo_block"
+    }
+  }
+}

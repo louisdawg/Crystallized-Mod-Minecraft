@@ -20,6 +20,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.CRYSTALLIZED_INGOT);
                         entries.add(ModItems.RAW_CRYSTALLIZED);
+                        entries.add(ModItems.ENDO_INGOT);
 
                         entries.add(ModItems.EXALTER);
                     })
@@ -32,6 +33,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.CRYSTALLIZED_ORE);
                         entries.add(ModBlocks.CRYSTALLIZED_BLOCK);
+                        entries.add(ModBlocks.ENDO_BLOCK);
                     })
                     .build());
 

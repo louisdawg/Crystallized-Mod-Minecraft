@@ -1,5 +1,6 @@
 package crystallized.modid.item.custom;
 
+import crystallized.modid.block.ModBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.entity.EquipmentSlot;
@@ -17,9 +18,7 @@ import java.util.Map;
 public class ExalterItem extends Item {
 private static final Map<Block, Block> EXALTER_MAP =
         Map.ofEntries(
-                Map.entry(Blocks.OBSIDIAN, Blocks.CRYING_OBSIDIAN)
-
-
+                Map.entry(Blocks.NETHERITE_BLOCK, ModBlocks.ENDO_BLOCK)
         );
 
     public ExalterItem(Settings settings) {
