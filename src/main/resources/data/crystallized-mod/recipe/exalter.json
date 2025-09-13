@@ -6,9 +6,8 @@
     "X": "crystallized-mod:crystallized_ingot"
   },
   "pattern": [
-    " X",
-    " #",
-    " #"
+    "X",
+    "#"
   ],
   "result": {
     "count": 1,
