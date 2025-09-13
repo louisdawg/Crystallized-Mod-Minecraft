@@ -1,6 +1,7 @@
 {
   "values": [
     "crystallized-mod:crystallized_block",
-    "crystallized-mod:crystallized_ore"
+    "crystallized-mod:crystallized_ore",
+    "crystallized-mod:endo_block"
   ]
 }
